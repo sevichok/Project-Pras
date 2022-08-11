@@ -151,7 +151,6 @@ button:hover {
 
 
 
-
 .main {
   padding: 40px 300px 0px;
 }
@@ -260,16 +259,24 @@ button:hover {
   line-height: 25px;
   color: #828282;
 }
-
-
 .banner_contacts_wrapper {
   display:flex;
   justify-content:center;
-  height:180px;
   gap:40px;
   padding:60px 60px ;
 }
+.contacts_label {
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000;
+  display: block;
+}
 .banner_contacts {
+  height:180px;
   background: #F01B0D;
   border-radius: 2px;
   width:680px;
@@ -278,6 +285,7 @@ button:hover {
   align-items:center;
 }
 .banner_email {
+  height:180px;
   background:black;
   border-radius: 2px;
   width:680px;

@@ -21,7 +21,7 @@ function Footer() {
                 <a href='!#'>
                     <h5 className='footer_info_h5'>обратная связь</h5></a>
                 <a href='!#'>
-                    <h5>Реклама</h5>
+                    <h5>Реклама:</h5>
                     <h6>ads@sporthub.news</h6></a>
             </div>
             <div className='section_links'>

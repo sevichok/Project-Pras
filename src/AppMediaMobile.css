@@ -1,3 +1,158 @@
 @media (min-width: 320px) and (max-width: 767px){
-    
+    .App {
+        max-width: 100%;
+      }
+      .header {
+        height: 250px;
+      }
+      .header_main {
+        padding: 30px 15px;
+      }
+      .header_main_open_menu {
+        display: none;
+      }
+      .text_comment {
+        font-size: 20px;
+        line-height: 23px;
+      }
+      .header_main_banner {
+        padding: 0px 15px 20px;
+      }
+      .header_bottom_menu{
+        overflow-x: auto;
+        gap: 0px;
+        padding: 0px 15px;
+        justify-content: space-between;
+        gap: 50px;
+      }
+      .main {
+        padding: 30px 0px 0px;
+      }
+      .main_news {
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 0px;
+      }
+      .news_textarea {
+        padding:0px 15px
+      }
+      .main_head_text {
+        padding-left:15px ;
+        padding-right:15px;
+      }
+      .news_item_wrapper {
+        width: auto;
+        height: auto;
+        padding-bottom: 30px;
+      }
+      .news_item_bg_wrapper {
+        width: auto;
+        height: 290px;
+        margin:0px 15px;
+        margin-bottom: 30px;
+      }
+      
+      .text_title,.text_title_bg {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .text_article,.text_article_bg {
+        font-size: 14px;
+        line-height: 18px;
+      }
+      .main_comments_row:nth-child(2), .comment_area:nth-child(2){
+        display: none;
+      }
+      .main_comments_row{
+        width: 100%;
+        padding-left:15px ;
+        padding-right:15px;
+      }
+      .comment_photo_area_small {
+        z-index: 2;
+      }
+      .third_text_comment {
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .banner_main_first, .banner_main_second {
+        height: 276px;
+        background-size:cover ;
+      }
+      .banner_main_text {
+        padding-left:38px ;
+        padding-right:36px;
+      }
+      .banner_main_second > .banner_main_text {
+        padding-left:28px ;
+        padding-right:28px;
+      }
+      .banner_main_second > .banner_main_text > h5 {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+      }
+      .banner_main_text > h6 {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      .banner_main_text > h2 {
+        font-size: 20px;
+        line-height: 23px;
+      }
+      .banner_contacts_wrapper {
+        flex-direction: column;
+        padding: 30px 0px 50px;
+      }
+      .banner_contacts {
+        width: auto;
+      }
+      .banner_section_links {
+        flex-wrap: wrap;
+        padding-left: 43px;
+        padding-right: 43px;
+      }
+      .banner_section_links .link_tg {
+        display: none;
+      }
+      .contacts_label{
+        padding-left: 15px;
+      }
+      .banner_email {
+        width: auto;
+        flex-direction: column;
+        padding-left:60px ;
+        padding-right:60px;
+        gap: 24px;
+      }
+      .banner_email_input {
+        padding-bottom: 12px;
+      }
+        .footer {
+        padding: 0 15px 0;
+        height: auto;
+        gap: 40px;
+        }
+    .section_info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+    .footer .section_links{
+        flex-wrap: wrap;
+        gap: 12px;
+        padding-left:31px ;
+        padding-right:31px;
+    }
+    .section_signs{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 27px;
+        gap: 14px;
+    }
+    .first_sign > h6 {
+        font-size: 12px;
+        line-height: 14px;
+    }
 }
